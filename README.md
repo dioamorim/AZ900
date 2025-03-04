@@ -21,4 +21,39 @@ o	Custos flexíveis e previsíveis, sem necessidade de grandes investimentos ini
 o	Cobrança proporcional ao uso real dos recursos de nuvem, sem desperdício financeiro.
 o	Garante melhor previsão de custos e otimização dos investimentos em TI.
 
+Benefícios da Nuvem no Azure
+1.	Alta Disponibilidade
+o	O Service Level Agreement (SLA) define o nível de disponibilidade esperado para os serviços na nuvem.
+o	Um SLA de 99,9% representa até 8,76 horas de indisponibilidade por ano.
+o	O Azure Service Health permite monitorar se um serviço está operacional, degradado ou indisponível.
+o	Diferentes níveis de disponibilidade, como zonas de disponibilidade e replicação geográfica, garantem maior resiliência.
+2.	Escalabilidade e Elasticidade
+o	Escalabilidade permite aumentar ou diminuir recursos, como armazenamento e processamento, conforme a necessidade.
+o	Elasticidade ajusta automaticamente os recursos para suportar variações na demanda, evitando desperdícios.
+o	Exemplo: adicionar máquinas virtuais (VMs) ou contêineres para lidar com picos de uso.
+3.	Confiabilidade
+o	A infraestrutura descentralizada da nuvem garante alta resiliência e continuidade dos serviços.
+o	Recursos são implantados em múltiplas regiões, reduzindo o impacto de falhas localizadas.
+o	O modelo distribuído previne falhas catastróficas e assegura recuperação de desastres eficiente.
+4.	Previsibilidade
+o	Permite prever desempenho e custos, garantindo estabilidade financeira e operacional.
+o	O Microsoft Azure Well-Architected Framework ajuda a criar arquiteturas eficientes.
+o	O modelo pay-as-you-go ajusta custos ao consumo real, evitando desperdícios.
+5.	Segurança
+o	O Azure fornece ferramentas avançadas de segurança, como Azure Security Center e Microsoft Defender for Cloud.
+o	A responsabilidade da segurança é compartilhada:
+	A Microsoft protege a infraestrutura física e os serviços de base.
+	O cliente deve configurar firewalls, permissões e políticas de segurança corretamente.
+o	Atualizações e patches de segurança precisam ser gerenciados pelo cliente para evitar vulnerabilidades.
+6.	Governança
+o	A governança na nuvem garante conformidade com normas regulatórias e boas práticas.
+o	Ferramentas como Azure Policy e Azure Blueprints permitem auditoria e aplicação de políticas de conformidade.
+o	Implementar a governança desde o início ajuda a manter o ambiente seguro e bem gerenciado.
+7.	Gerenciabilidade
+o	O Azure oferece diversas opções para implantar e gerenciar recursos:
+	Portal Web (Azure Portal) – Interface gráfica para administração dos serviços.
+	Linha de Comando (Azure CLI) – Para automação e scripts.
+	APIs REST – Para integração com outros sistemas.
+	PowerShell – Administração avançada e automação de processos.
+o	O uso de modelos de implantação evita configurações manuais repetitivas e melhora a eficiência operacional, além de evitar erros.
 
