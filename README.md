@@ -57,3 +57,41 @@ o	O Azure oferece diversas opções para implantar e gerenciar recursos:
 	PowerShell – Administração avançada e automação de processos.
 o	O uso de modelos de implantação evita configurações manuais repetitivas e melhora a eficiência operacional, além de evitar erros.
 
+IaaS PaaS SaaS
+
+IaaS (Infra como seriço)
+
+Crie uma estrutura de TI de pagamento conforme o uso, alugando servidores,
+VM, armazenamento, redes e sistemas operacionais de um provedor de
+nuvem.
+
+1. Servidores e armazenamento
+2. Firewall/segurança de rede
+3. Planta física/edifício do datacenter (rede, por exemplo, a uma rede privada)
+
+Serviço de nuvem mais flexível
+Você configura e gerência o hardware para seu aplicativo
+
+PaaS (Plataforma como serviço)
+
+Engloba o IaaS e acresce, por exemplo:
+1. Sistemas operacionais
+2. Ferramentas para desenvolvedores, análise de negócios de
+gerenciamento de database.
+Fornece um ambiente para a criação, o teste e a implantação de aplicativos
+de softwares, sem foca no gerenciamento da infraestrutura subjacente.
+
+Focado no desenvolvimento de aplicativos
+O gerenciamento da plataforma é realizado pelo provedor de assiantura
+
+SaaS (Software como serviço)
+
+1. Engloba IaaS, PaaS
+2. Aplicativo e apps hospedados
+
+Modelo de preço de pagamento conforme o uso
+
+Os usuários pagam pelo software que utilizam em um modelo de assinatura
+
+Modelo de responsabilidade partilhada
+
