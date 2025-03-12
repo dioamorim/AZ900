@@ -89,6 +89,51 @@ SaaS (Software como serviço)
 1. Engloba IaaS, PaaS
 2. Aplicativo e apps hospedados
 
+Arquitetura do Azure
+
+1. Regiões do Azure 
+
+O Azure é dividido em regiões, que são locais geográficos ao redor do mundo onde os data centers estão localizados. Cada região contém um ou mais data centers e oferece serviços específicos.
+📌 Exemplos de Regiões:
+•	Leste dos EUA (East US)
+•	Oeste da Europa (West Europe)
+•	Sudeste Asiático (Southeast Asia)
+•	Brasil Sul (Brazil South)
+Cada região é independente, permitindo que os clientes escolham onde hospedar seus serviços com base em latência, conformidade e requisitos operacionais.
+
+2. Zonas de Disponibilidade
+
+Uma região pode ter Zonas de Disponibilidade, que são múltiplos data centers fisicamente separados dentro da mesma região. Cada zona tem:
+✅ Energia, rede e refrigeração independentes
+✅ Alta disponibilidade para cargas de trabalho críticas
+✅ Replicação síncrona de dados entre zonas
+📍 Exemplo: Uma aplicação pode ter três máquinas virtuais em três zonas diferentes dentro da mesma região, garantindo continuidade do serviço em caso de falha de um data center.
+
+3. Pares de Regiões
+
+O Azure agrupa regiões em pares, garantindo maior resiliência e recuperação de desastres. Cada região tem um par geograficamente distante, e o Azure prioriza a recuperação primeiro na região emparelhada em caso de falhas catastróficas.
+📌 Exemplos de Pares de Regiões:
+•	Brasil Sul ↔ Sul dos EUA
+•	Norte da Europa ↔ Oeste da Europa
+•	Leste do Japão ↔ Oeste do Japão
+🛑 Vantagens dos pares de regiões:
+✔ Atualizações do Azure são aplicadas primeiro em uma região e depois na outra para evitar downtime
+✔ Replicação assíncrona entre regiões para recuperação de desastres
+✔ Continuidade dos serviços críticos em caso de falha total de uma região
+
+Grupos de Gerenciamento no Azure 
+
+Os Grupos de Gerenciamento (Management Groups) são um recurso do Azure que permite organizar e gerenciar várias assinaturas de forma centralizada. Eles são úteis para aplicar políticas, controles de acesso e compliance em larga escala.
+
+📌 Estrutura Hierárquica do Azure
+A estrutura organizacional do Azure é hierárquica e segue esta ordem:
+🔹 Grupos de Gerenciamento (Nível mais alto)
+🔹 Assinaturas
+🔹 Grupos de Recursos
+🔹 Recursos Individuais (VMs, Storage, Banco de Dados, etc.)
+Cada Grupo de Gerenciamento pode conter várias assinaturas, que por sua vez contêm grupos de recursos e recursos individuais.
+
+
 Modelo de preço de pagamento conforme o uso
 
 Os usuários pagam pelo software que utilizam em um modelo de assinatura
