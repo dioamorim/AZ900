@@ -255,6 +255,112 @@ Identidade, Acesso e Segurança são áreas essenciais para garantir que os recu
 
     Autenticação: Processo de verificar a identidade do usuário, usando senhas, biometria ou autenticação multifatorial.
 
+
+
+No Azure, o gerenciamento de custos envolve monitorar, controlar e otimizar os gastos com serviços em nuvem. Aqui estão os principais conceitos:
+
+    Azure Cost Management + Billing: Ferramenta para acompanhar e analisar os custos, além de configurar orçamentos e alertas para evitar gastos excessivos.
+
+    Orçamentos e Alertas: Você pode definir orçamentos mensais e receber alertas quando os custos atingem certos limites, ajudando a manter os gastos sob controle.
+
+    Azure Pricing Calculator: Ferramenta que ajuda a estimar o custo de serviços antes da implementação, ajustando conforme as necessidades de sua organização.
+
+    Azure Advisor: Fornece recomendações personalizadas para otimizar os custos, como sugestões de recursos subutilizados que podem ser ajustados ou desativados.
+
+    Reservas e Descontos: Oferece descontos para serviços de longo prazo (ex.: máquinas virtuais e bancos de dados), permitindo economizar até 72% com compromissos de 1 ou 3 anos.
+
+    Análise de Custos: Ferramenta para explorar detalhadamente como os custos estão sendo gerados e identificar áreas onde é possível reduzir despesas.
+
+    Tags e Recursos de Gerenciamento: Permite categorizar os recursos com tags, facilitando o acompanhamento e alocação de custos por departamentos ou projetos.
+
+Essas práticas e ferramentas ajudam a otimizar os gastos, garantir que os custos fiquem dentro do orçamento e melhorar a eficiência no uso dos serviços Azure.
+
     Autorização: Processo de garantir que um usuário autenticado tenha permissões adequadas para acessar os recursos.
 
 
+Governança e Conformidade no Azure envolvem práticas e ferramentas para garantir que os recursos e dados sejam geridos de forma segura, eficiente e em conformidade com regulamentos e políticas organizacionais. Aqui estão os principais pontos:
+
+    Azure Policy: Permite criar e aplicar políticas para garantir que os recursos atendam aos requisitos de conformidade e governança, como restrições de tipos de recursos e regiões.
+
+    Azure Blueprints: Conjunto de políticas e padrões que garantem que os ambientes sejam implantados conforme as melhores práticas e requisitos de governança.
+
+    Azure Security Center: Ferramenta que monitora a segurança dos recursos, fornecendo recomendações para melhorar a postura de segurança e atender aos requisitos de conformidade.
+
+    Compliance Manager: Oferece uma visão detalhada da conformidade com regulamentos como GDPR, ISO 27001 e outros, ajudando a gerenciar e monitorar a conformidade ao longo do tempo.
+
+    Controle de Acesso (RBAC): Gerenciamento de permissões e acesso aos recursos com base em funções, garantindo que usuários e grupos tenham o nível adequado de acesso.
+
+    Auditoria e Monitoramento: Ferramentas como o Azure Monitor e Azure Activity Log ajudam a auditar o uso e o acesso aos recursos, garantindo visibilidade e conformidade com as políticas estabelecidas.
+
+Essas ferramentas e práticas ajudam a manter o controle sobre o uso dos recursos, garantir a segurança e a conformidade com as normas e regulamentos aplicáveis.
+
+
+As ferramentas de gerenciamento e implantação no Azure são essenciais para configurar, monitorar e automatizar a gestão de recursos na nuvem. Aqui estão as principais ferramentas:
+
+    Azure Portal: Interface gráfica para gerenciar e monitorar recursos do Azure, permitindo a criação e configuração de serviços de forma fácil e intuitiva.
+
+    Azure CLI (Command-Line Interface): Ferramenta de linha de comando para interagir com o Azure, permitindo automatizar e gerenciar recursos através de scripts.
+
+    Azure PowerShell: Ferramenta de automação e gerenciamento via linha de comando, focada no uso de scripts PowerShell para administrar o Azure.
+
+    Azure Resource Manager (ARM): Gerencia e organiza recursos do Azure por meio de templates (ARM templates), facilitando a implantação e a configuração automatizada de ambientes complexos.
+
+    Azure DevOps: Plataforma para integrar o desenvolvimento e operações, proporcionando pipelines de CI/CD (Integração Contínua/Entrega Contínua), controle de versões e automação de testes.
+
+    Azure Automation: Ferramenta para automatizar tarefas recorrentes, como implantações, atualizações e gerenciamento de recursos em larga escala, usando runbooks.
+
+    Azure Monitor: Permite monitorar o desempenho, a integridade e a utilização dos recursos, além de configurar alertas e realizar diagnósticos.
+
+    Azure Security Center: Oferece monitoramento de segurança e recomendações para melhorar a postura de segurança dos recursos no Azure.
+
+Essas ferramentas auxiliam na implantação de recursos, automação de processos e monitoramento de sistemas, garantindo a eficiência e a conformidade no gerenciamento de ambientes na nuvem.
+
+
+
+No Azure, existem várias ferramentas de monitoramento para acompanhar a saúde, desempenho e segurança dos recursos. Aqui estão as principais:
+
+    Azure Monitor:
+
+        A principal ferramenta para monitorar e coletar métricas e logs de recursos do Azure.
+
+        Permite configurar alertas, diagnosticar problemas de desempenho e visualizar métricas em tempo real.
+
+        Inclui Application Insights para monitorar aplicativos, oferecendo insights detalhados sobre o comportamento e o desempenho do código.
+
+    Azure Log Analytics:
+
+        Parte do Azure Monitor, permite coletar, consultar e analisar dados de log de diferentes recursos do Azure.
+
+        Facilita a correlação de eventos e a análise de tendências ao longo do tempo.
+
+    Azure Application Insights:
+
+        Focada no monitoramento de aplicativos, permite analisar o desempenho e diagnosticar falhas em tempo real.
+
+        Oferece insights detalhados sobre a interação dos usuários e a performance do aplicativo.
+
+    Azure Network Watcher:
+
+        Ferramenta para monitorar a infraestrutura de rede do Azure, incluindo diagnóstico de tráfego, análise de conexões e métricas de rede.
+
+        Fornece funcionalidades como Connection Monitor e Network Performance Monitor para identificar problemas de conectividade e desempenho de rede.
+
+    Azure Security Center:
+
+        Ferramenta de monitoramento focada na segurança, fornecendo recomendações para melhorar a postura de segurança e monitorar ameaças em tempo real.
+
+        Oferece insights sobre vulnerabilidades, políticas de segurança e conformidade.
+
+    Azure Service Health:
+
+        Fornece informações sobre o status de serviços do Azure e avisos de manutenção, além de alertar sobre problemas específicos que podem impactar os recursos.
+
+        Ajuda a manter o controle sobre eventos de interrupção e manter a continuidade dos negócios.
+
+    Azure Advisor:
+
+        Embora seja mais focado em otimização, também oferece recomendações para monitorar o desempenho e segurança dos recursos.
+
+        Ajuda a identificar áreas que podem ser melhoradas para reduzir custos e aumentar a eficiência.
+
+Essas ferramentas fornecem visibilidade abrangente, ajudando a identificar, diagnosticar e resolver problemas, além de otimizar o desempenho e a segurança dos recursos no Azure.
