@@ -140,9 +140,6 @@ Os usuários pagam pelo software que utilizam em um modelo de assinatura
 
 Modelo de responsabilidade partilhada
 
-
-
-
 Configuração de recursos e dimensionamento em máquinas virtuais (VMs) na Azure envolve a seleção e ajuste de diversos parâmetros para otimizar o desempenho e custo das VMs. Isso inclui:
 
     Escolha da Série de VM: Azure oferece várias séries de VMs, como as de propósito geral, otimizadas para memória ou computação, permitindo escolher conforme as necessidades do workload.
@@ -156,4 +153,108 @@ Configuração de recursos e dimensionamento em máquinas virtuais (VMs) na Azur
     Escalabilidade: Utilizar recursos como escalabilidade automática (auto-scaling) para ajustar a capacidade de acordo com a demanda, mantendo o desempenho sem comprometer o custo.
 
     Monitoramento e Ajustes: Monitorar o uso de recursos e ajustar as configurações para otimizar custos e desempenho com base nas métricas de uso.
+
+
+O armazenamento na Azure é um componente crucial, abrangendo diversos tipos de serviços para atender diferentes necessidades de dados. Aqui está um resumo sobre o armazenamento na Azure, de acordo com os tópicos abordados no exame:
+
+    Tipos de Armazenamento:
+
+        Armazenamento de Blobs (Blob Storage): Ideal para armazenar dados não estruturados como imagens, vídeos, backups e arquivos.
+
+        Armazenamento de Arquivos (Azure Files): Solução de compartilhamento de arquivos, acessível via SMB (Server Message Block), adequada para uso em ambientes híbridos.
+
+        Armazenamento de Tabelas (Azure Tables): Armazenamento NoSQL, útil para dados estruturados de grande escala.
+
+        Armazenamento de Filas (Azure Queues): Fila de mensagens para comunicação assíncrona entre diferentes partes de uma aplicação.
+
+        Armazenamento de Discos (Azure Disks): Para criar discos rígidos virtuais para VMs na Azure, com opções de discos gerenciados e não gerenciados.
+
+    Redundância e Alta Disponibilidade:
+
+        Locais de Redundância: Azure oferece diferentes opções de redundância, como LRS (Locally Redundant Storage), GRS (Geo-Redundant Storage), ZRS (Zone-Redundant Storage), entre outros.
+
+        Alta Disponibilidade: Garantia de que os dados permanecem acessíveis, mesmo em caso de falha em algum dos locais.
+
+    Acesso e Segurança:
+
+        Controle de Acesso Baseado em Funções (RBAC): Definir permissões de usuários e grupos para acessar e gerenciar recursos de armazenamento.
+
+        Chaves de Armazenamento e SAS (Shared Access Signature): Métodos de controle de acesso seguro aos dados.
+
+    Backup e Recuperação:
+
+        Azure oferece soluções de backup e recuperação de dados, como o Azure Backup e Azure Site Recovery, para proteger dados críticos contra falhas.
+
+    Armazenamento Hierárquico e Camadas:
+
+        Azure permite a utilização de camadas de armazenamento (hot, cool e archive) para otimizar custos conforme a frequência de acesso aos dados.
+
+
+
+
+Identidade, Acesso e Segurança são áreas essenciais para garantir que os recursos na Azure sejam protegidos e acessados apenas por usuários autorizados. Aqui está um resumo desses tópicos sob a ótica do exame:
+1. Azure Active Directory (Azure AD):
+
+    Azure AD é a solução de gerenciamento de identidades e acesso na Azure, permitindo autenticação e autorização para recursos em nuvem e em ambientes híbridos.
+
+    Funções principais do Azure AD:
+
+        Autenticação: Verifica a identidade de usuários e dispositivos.
+
+        Autorização: Garante que os usuários possam acessar apenas os recursos permitidos.
+
+        Gerenciamento de Identidade: Gerencia contas de usuários, grupos e dispositivos.
+
+    Azure AD vs AD tradicional: O Azure AD é uma versão baseada em nuvem do Active Directory tradicional, mas sem dependência de servidores locais.
+
+2. Controle de Acesso Baseado em Funções (RBAC):
+
+    RBAC permite que você atribua permissões a usuários, grupos e aplicativos com base em funções específicas, garantindo que cada usuário tenha acesso apenas aos recursos necessários para suas funções.
+
+    Funções Comuns:
+
+        Owner: Controle total sobre o recurso.
+
+        Contributor: Permite editar o recurso, mas não gerenciar permissões.
+
+        Reader: Permite apenas a leitura dos recursos.
+
+3. Gerenciamento de Acesso e Permissões:
+
+    Políticas de Acesso Condicional: Permite aplicar regras que dependem de condições específicas, como localização ou tipo de dispositivo, para controlar o acesso.
+
+    Autenticação Multifatorial (MFA): Aumenta a segurança exigindo mais de uma prova de identidade (por exemplo, senha e um código enviado para o celular).
+
+    Privileged Identity Management (PIM): Ajuda a gerenciar, monitorar e auditar as permissões de usuários com acesso privilegiado.
+
+4. Segurança de Rede:
+
+    Firewalls e Grupos de Segurança de Rede (NSGs): Controlam o tráfego de rede e ajudam a proteger recursos na Azure de acessos não autorizados.
+
+    Azure DDoS Protection: Protege recursos na nuvem contra ataques de negação de serviço (DDoS), garantindo a continuidade dos serviços.
+
+5. Criptografia e Proteção de Dados:
+
+    Criptografia em Trânsito e em Repouso: A Azure criptografa dados tanto em trânsito (durante a comunicação) quanto em repouso (armazenamento de dados).
+
+    Key Vault: Serviço para gerenciar chaves de criptografia e segredos de forma segura, como senhas e certificados.
+
+6. Monitoramento e Auditoria:
+
+    Azure Security Center: Ferramenta para monitorar a segurança de recursos na Azure e fornecer recomendações para melhorar a proteção.
+
+    Azure Sentinel: Solução de gerenciamento de eventos de segurança (SIEM) para detectar, investigar e responder a ameaças em tempo real.
+
+7. Conformidade e Governança:
+
+    Azure Policy: Ferramenta para definir e aplicar políticas em recursos da Azure, garantindo que os recursos estejam em conformidade com regulamentos e requisitos organizacionais.
+
+    Blueprints: Permite criar conjuntos de políticas e padrões para garantir que os ambientes sejam implantados conforme os requisitos de governança.
+
+8. Autenticação e Autorização:
+
+    Autenticação: Processo de verificar a identidade do usuário, usando senhas, biometria ou autenticação multifatorial.
+
+    Autorização: Processo de garantir que um usuário autenticado tenha permissões adequadas para acessar os recursos.
+
 
