@@ -140,3 +140,20 @@ Os usuários pagam pelo software que utilizam em um modelo de assinatura
 
 Modelo de responsabilidade partilhada
 
+
+
+
+Configuração de recursos e dimensionamento em máquinas virtuais (VMs) na Azure envolve a seleção e ajuste de diversos parâmetros para otimizar o desempenho e custo das VMs. Isso inclui:
+
+    Escolha da Série de VM: Azure oferece várias séries de VMs, como as de propósito geral, otimizadas para memória ou computação, permitindo escolher conforme as necessidades do workload.
+
+    Dimensionamento de CPU e Memória: Definir o número de vCPUs e a quantidade de memória RAM que a VM vai utilizar, com base na carga de trabalho.
+
+    Armazenamento: Configurar o tipo e tamanho de discos (ex.: SSDs Premium ou Standard) e a quantidade de armazenamento necessária.
+
+    Rede: Definir as configurações de rede, como a rede virtual (VNet), sub-redes e configurações de segurança, incluindo firewalls e grupos de segurança.
+
+    Escalabilidade: Utilizar recursos como escalabilidade automática (auto-scaling) para ajustar a capacidade de acordo com a demanda, mantendo o desempenho sem comprometer o custo.
+
+    Monitoramento e Ajustes: Monitorar o uso de recursos e ajustar as configurações para otimizar custos e desempenho com base nas métricas de uso.
+
